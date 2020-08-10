@@ -30,13 +30,3 @@ print(type(age)) #데이터 타입
 print(type(int(age))) #형변환
 
 age = int(input("나이를 입력하세요. : "))
-
-
-# if ================================
-if True :
-    print ("True")
-elif False :
-    print("False")
-else:
-    print("Error")
-
