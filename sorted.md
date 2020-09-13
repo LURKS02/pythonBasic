@@ -6,6 +6,13 @@ sorted(list)
 sorted(list, reverse=True)
 ```
 
+### itemgetter
+```python
+from operator import itemgetter
+sorted(list, key=itemgetter(정렬기준 인덱스))
+```
+정렬하려는 리스트의 구성요소가 정수가 아닌 객체형태일때 정렬의 기준을 정해주는 방식
+
 ### lambda
 ```python
 # y축 기준으로 오름차순
